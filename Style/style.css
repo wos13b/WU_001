@@ -1,0 +1,115 @@
+
+
+body{
+
+    background-color: #333333;
+    margin: 0px;
+
+}
+
+h1{
+
+    color: black;
+    margin: 5px auto;
+
+}
+h2{
+
+    color: black;
+    margin: 5px auto;
+
+}
+
+p{
+
+    text-align: center;
+    margin: 5px auto 0px auto;
+
+}
+
+main{
+
+    background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
+    text-align: center;
+    height: 400;
+    margin:auto 150px
+    
+}
+main img{
+
+    width: 25%;
+    height: 25%;
+
+}
+img{
+
+    margin: auto;
+
+}
+hr{
+    color: blue;
+}
+p{
+
+    text-align: justify;
+
+}
+article > p{
+
+    text-align: center;
+    margin: 0px;
+
+}
+nav{
+    
+    text-align: center;
+    
+}
+nav > a{
+
+    color: #161616;
+    margin: auto 20px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav > a:hover{
+
+    color:#646464 ;
+
+}
+header{
+
+    background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
+    margin: 0px;
+    margin:auto 150px;
+    
+}
+header > h1{
+
+    text-align: center;
+    margin: 0px;
+    
+
+
+}
+header > h2{
+
+    text-align: center;
+    margin: 0px;
+
+}
+footer{
+
+    background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
+    margin:0px 150px;
+    border-radius: 0px 0px 8px 8px;
+
+}
+footer > p{
+
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+}
