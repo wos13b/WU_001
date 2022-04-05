@@ -2,6 +2,7 @@
 body {
 
     background-color:#3f3f3f;
+    margin: 0px auto;
 
 }
 
@@ -9,7 +10,7 @@ header {
 
     text-align: center;
     background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
-    margin: 5px;
+    margin: auto auto 5px auto ;
 
 
 }
@@ -17,7 +18,7 @@ header {
 h1 {
 
     text-align: center;
-    margin: 0px;
+    margin: 0px auto 5px;
 
 }
 
@@ -55,13 +56,19 @@ img {
     margin: auto;
 
 }
-main ol{
 
-    list-style-position: inside;
-    columns: 2;
-    text-align: center;
-    padding: 0px;
-    margin: auto 0px;
+#doze_exp{
+
+    width: 200px;
+    height: auto;
+    margin: 0px auto 0px auto;
+
+}
+
+main a{
+
+text-decoration: none;
+    
 }
 
 footer{
