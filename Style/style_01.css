@@ -9,7 +9,7 @@ header {
 
     text-align: center;
     background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
-    margin: auto 10px;
+    margin: 5px;
 
 
 }
@@ -17,6 +17,7 @@ header {
 h1 {
 
     text-align: center;
+    margin: 0px;
 
 }
 
@@ -60,6 +61,7 @@ main ol{
     columns: 2;
     text-align: center;
     padding: 0px;
+    margin: auto 0px;
 }
 
 footer{
