@@ -54,6 +54,13 @@ img {
     margin: auto;
 
 }
+main ol{
+
+    list-style-position: inside;
+    columns: 2;
+    text-align: center;
+    padding: 0px;
+}
 
 footer{
 
