@@ -36,7 +36,8 @@ main{
 
     background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
     margin: auto;
-    width: 800px;
+    min-width: 400px;
+    max-width: 800px;
 
 }
 
