@@ -11,7 +11,8 @@ header {
     text-align: center;
     background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
     margin: auto auto 5px;
-    width: 800px;
+    min-width: 400px;
+    max-width: 800px;
 
 }
 
