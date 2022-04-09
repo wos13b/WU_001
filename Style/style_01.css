@@ -50,14 +50,14 @@ main{
 main p {
 
     text-align: justify;
-    margin: 0px;
+    margin: auto 2%;
 
 }
 
 .descrição{
 
     text-align: center;
-    margin: 0px auto 10px;
+    margin: 0px 2% 10px;
 
 }
 
