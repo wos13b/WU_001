@@ -46,6 +46,16 @@ main{
     max-width: 800px;
 
 }
+#click{
+
+    background-color: black;
+    height: 40px;
+    width: 80px;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+
+}
 
 main p {
 
