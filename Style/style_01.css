@@ -46,11 +46,12 @@ main{
     max-width: 800px;
 
 }
-#click{
+#A{
 
     background-color: black;
-    height: 40px;
+    height: 80px;
     width: 80px;
+    line-height: 80px;
     margin: 20px auto;
     color: white;
     text-align: center;
