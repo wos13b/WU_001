@@ -57,6 +57,14 @@ main{
     text-align: center;
 
 }
+#img_prime{
+
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+
+}
 
 main p {
 
