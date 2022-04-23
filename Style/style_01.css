@@ -60,6 +60,8 @@ main{
 }
 #img_prime{
 
+    text-align: center;
+    color: white;
     background-color: black;
     width: 400px;
     height: 400px;
