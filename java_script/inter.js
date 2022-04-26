@@ -1,17 +1,15 @@
 deslize = window.document.getElementById('img_prime')
-deslize.addEventListener('mouseenter', mouse_on)
-deslize.addEventListener('mouseout', mouse_off)
+deslize.addEventListener('mouseenter', mouseon)
+deslize.addEventListener('mouseout', mouseoff)
 
 
-function mouse_on(){
+function mouseon(){
 
-    deslize = window.document.getElementById('img_prime')
     deslize.innerText = 'mouse_on'
 
 }
-function mouse_off(){
+function mouseoff(){
 
-    deslize = window.document.getElementById('img_prime')
     deslize.innerText = 'mouse_off'
 
 }
