@@ -1,8 +1,11 @@
 deslize = window.document.getElementById('img_prime')
-deslize.addEventListener('mouseenter', mouse_on)
+somar = document.getElementById('somar')
+res = document.getElementById('res')
+/*deslize.addEventListener('mouseenter', mouse_on)
 deslize.addEventListener('mouseout', mouse_off)
-deslize.addEventListener('click', mouse_click)
-
+deslize.addEventListener('click', mouse_click)*/
+somar.addEventListener('click', sm_click)
+res = document.getElementById('res')
 
 
 
@@ -22,11 +25,12 @@ function mouse_click(){
     deslize.innerText = 'click'
 
 }*/
-function click(){
+function sm_click(){
 
-    var n1 = document.getElementById('sm1')
-    var n2 = document.getElementById('sm2')
-    var r = n1 + n2
+    var n2 = Number(window.document.getElementById('sm1').value)
+    var n1 = Number(window.document.getElementById('sm2').value)
+    var s = n1 + n2
+    res.innerHTML = s
 
 }
 
