@@ -1,3 +1,10 @@
+@font-face{
+
+    font-family: augusta;
+    src: url('fonts/Augusta.ttf') format('truetype');
+
+}
+
 
 body {
 
@@ -18,6 +25,8 @@ header {
 
 h1 {
 
+    font-family: augusta;
+    color: #3f3f3f;
     text-align: center;
     margin: 0px auto 5px;
 
@@ -31,10 +40,16 @@ h2 {
 
 nav > a{
 
-    color: #161616;
+    font-family: augusta;
+    color: #3f3f3f;
     margin: auto 20px;
     text-decoration: none;
     font-size: 20px;
+
+}
+nav > a:hover{
+
+    color: #252525;
 
 }
 
@@ -79,6 +94,7 @@ ul{
 
 main p {
 
+    font-family: augusta;
     text-align: justify;
     margin: auto 20px;
 
