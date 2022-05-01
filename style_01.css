@@ -72,24 +72,6 @@ main{
     padding-top: 100px;
 
 }
-#src_blk{
-
-    background-image: linear-gradient(to right,#3f3f3f,#868686,#3f3f3f);
-    color: white;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-#resultado{
-
-    margin: 0px auto 20px;
-    display: block;
-    background-color: #868686;
-    border-color: #3f3f3f;
-
-}
 ul{
 
     width:200px ;
@@ -114,16 +96,19 @@ ul{
     max-width: 800px;
     height: 400px;
     background-image: url(imagem/Socrates.jpg);
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
-    margin:auto;
+    background-attachment: fixed;
+    margin:10px auto;
 
 }
 
 main p {
 
+    margin: auto 20px;
     font-family: augusta;
     text-align: justify;
+
 }
 
 .descrição{
