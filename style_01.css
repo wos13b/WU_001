@@ -19,7 +19,7 @@ header {
     top: 0;
     left: auto;
     text-align: center;
-    background-color: #252525;
+    background-color: #3d3d3d;
     margin: auto;
     margin-bottom: 5px;
     width: 100%;
@@ -30,9 +30,13 @@ header {
 h1 {
 
     font-family: augusta;
-    color: #3f3f3f;
     text-align: center;
     margin: 0px auto 5px;
+
+}
+header h1{
+
+    color: #868686;
 
 }
 h2 {
@@ -44,10 +48,10 @@ h2 {
 
 }
 
-nav > a{
+nav > a {
 
     font-family: augusta;
-    color: #3f3f3f;
+    color: #868686;
     margin: auto 20px;
     text-decoration: none;
     font-size: 20px;
@@ -65,7 +69,7 @@ main{
     margin: auto;
     min-width: 400px;
     max-width: 800px;
-    padding-top: 80px;
+    padding-top: 100px;
 
 }
 #src_blk{
