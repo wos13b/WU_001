@@ -26,6 +26,11 @@ header {
     height: 80px;
 
 }
+#Menu{
+
+    display: none;
+
+}
 
 h1 {
 
@@ -133,5 +138,19 @@ footer p{
 
     margin: 0px;
     text-align: center;
+
+}
+@media (max-width: 600px){
+
+    #Menu{
+
+            display: inline-block;
+
+    }
+    nav a{
+
+        display: none;
+
+    }
 
 }
