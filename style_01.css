@@ -98,7 +98,6 @@ ul{
     background-image: url(imagem/Socrates.jpg);
     background-position: center top;
     background-size: cover;
-    background-attachment: fixed;
     margin:10px auto;
 
 }
@@ -123,13 +122,6 @@ main p {
     text-align: center;
 
 }
-
-img {
-
-    margin: auto;
-
-}
-
 
 main a{
 
