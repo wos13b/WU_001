@@ -1,23 +1,11 @@
-result = document.getElementById('resultado')
-result.addEventListener('click', sm_click)
+const menu = document.getElementById('Menu')
 
+function click(){
 
-
-function sm_click(){
-
-    test = document.getElementById('A')
-    n = Number(window.document.getElementById('src_blk').value)
-    if (n > 0){
-
-        test.innerText = 'positivo'
-
-    }
-    else{
-
-        test.innerText = 'negativo'
-
-    }
-    
+    const nave = document.getElementById('navegation')
+    nave.classList.toggle('active')
 
 }
+
+menu.addEventListener('click', click)
 
