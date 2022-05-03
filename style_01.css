@@ -39,6 +39,10 @@ nav{
     width: 50px;
     display: none;
     text-align: left;
+    background-color: #3f3f3f;
+    border-radius: 10px;
+    color: #868686;
+    font-family: augusta;
 
 }
 
@@ -98,21 +102,34 @@ main{
     text-align: center;
 
 }
-#img_ph{
+#img_socrates{
 
-    min-width: 200px;
-    max-width: 800px;
-    height: 400px;
     background-image: url(imagem/Socrates.jpg);
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
-    margin:10px auto;
+
+}
+#img_platão{
+
+    background-image: url(imagem/platão.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.img{
+
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    max-width: 80%;
+    height: 250px;
 
 }
 
 main p {
 
-    margin: auto 20px;
+    margin: 20px ;
+    margin-top: 0px;
     font-family: augusta;
     text-align: justify;
 
