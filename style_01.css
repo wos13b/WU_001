@@ -25,9 +25,16 @@ header {
     height: 80px;
 
 }
-nav{
+nav {
 
     text-align: center;
+
+}
+a {
+
+    color: #868686;
+    text-decoration: none;
+    left: 0px;
 
 }
 #Menu{
@@ -45,7 +52,6 @@ nav{
     font-family: augusta;
 
 }
-
 h1 {
 
     font-family: augusta;
@@ -170,6 +176,11 @@ footer p{
     nav {
 
         display: none;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        background:#3d3d3d ;
 
     }
     #navegation.active {
