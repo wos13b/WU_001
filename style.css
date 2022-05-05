@@ -43,22 +43,6 @@ header{
     background: none;
 
 }
-#cruz{
-
-    border-top: 4px solid;
-    width: 45px;
-
-}
-#cruz::after, #cruz::before {
-
-    content: '';
-    display: block;
-    background: black;
-    width: 45px;
-    height: 4px;
-    margin-top: 10px;
-
-}
 #menu{
     
     display: block;
