@@ -1,11 +1,12 @@
-const menu = document.getElementById('Menu')
+const b_menu = document.getElementById('btn_menu')
 
 function click(){
 
-    const nave = document.getElementById('navegation')
-    nave.classList.toggle('active')
+    const nav = document.getElementById('navegation')
+    nav.classList.toggle('active')
 
 }
 
-menu.addEventListener('click', click)
+
+b_menu.addEventListener('click', click)
 
