@@ -23,11 +23,23 @@ a:hover{
     background: rgba(0,0,0,.05);
     
 }
+#btn_options{
+
+    padding: 0px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+
+}
 #logo{
     
     font-family: augusta;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin: auto;
     
 }
 header{
@@ -37,7 +49,6 @@ header{
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #3f3f3f;
     
 }
@@ -53,19 +64,32 @@ header{
     cursor: pointer;
 
 }
-#btn_img{
+#btn_img-options{
 
     transition: .30s;
     transform: rotate(-180deg);
 
 }
-#btn_img.active {
+#btn_img-profiles.active{
 
     transition: .30s;
     transform: rotate(180deg);
 
 }
-#menu{
+
+#btn_img-profiles{
+
+    transition: .30s;
+    transform: rotate(-180deg);
+
+}
+#btn_img-profiles.active {
+
+    transition: .30s;
+    transform: rotate(180deg);
+
+}
+#menu_profiles{
     
     display: block;
     position: absolute;
@@ -82,7 +106,7 @@ header{
     gap: .5rem;
     
 }
-#menu a{
+#menu_profiles a{
     
     font-family: augusta;
     display: block;
