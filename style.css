@@ -11,6 +11,11 @@ body, ul{
     padding: 0px;
     
 }
+body{
+
+    height: 500px;
+
+}
 a{
     
     color: black;
@@ -100,8 +105,8 @@ header{
     height: 0px;
     transition: .6s;
     z-index: 1000;
-    visibility: hidden;
     overflow-y: hidden;
+    visibility: hidden;
     list-style: none;
     gap: .5rem;
     
@@ -115,7 +120,7 @@ header{
     border-bottom: 2px solid rgba(0,0,0,.05);
     
 }
-#navegation.active #menu{
+#navegation_profiles.active #menu{
     
     height: calc(36px * 4);
     visibility: visible;

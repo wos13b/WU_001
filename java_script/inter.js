@@ -3,7 +3,7 @@ const b_options = document.getElementById('btn_options')
 
 function click_1(){
 
-    const nav = document.getElementById('navegation')
+    const nav = document.getElementById('navegation_profiles')
     const btn_img_profiles = document.getElementById('btn_img-profiles')
     nav.classList.toggle('active')
     btn_img_profiles.classList.toggle('active')
