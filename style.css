@@ -41,6 +41,19 @@ header{
     width: 40px;
     border: none;
     background: none;
+    border-radius: 50%;
+
+}
+#btn_img{
+
+    transition: .20s;
+    transform: rotate(-360deg);
+
+}
+#btn_img.active {
+
+    transition: .20s;
+    transform: rotate(360deg);
 
 }
 #menu{
@@ -67,12 +80,6 @@ header{
     text-align: center;
     border-bottom: 2px solid rgba(0,0,0,.05);
     
-}
-img{
-
-    height:40px ;
-    width:40px ;
-
 }
 #navegation.active #menu{
     
