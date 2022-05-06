@@ -50,6 +50,7 @@ header{
     border: none;
     background: none;
     border-radius: 50%;
+    cursor: pointer;
 
 }
 #btn_img{
