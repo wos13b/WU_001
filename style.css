@@ -37,6 +37,7 @@ a:hover{
     border-radius: 50%;
     border: none;
     background: none;
+    cursor: pointer;
 
 }
 #logo{
@@ -57,7 +58,7 @@ header{
     background: #3f3f3f;
     
 }
-#btn_menu{
+#btn_profiles{
 
     display: flex;
     padding: 0px;
@@ -75,7 +76,7 @@ header{
     transform: rotate(-180deg);
 
 }
-#btn_img-profiles.active{
+#btn_img-options.active{
 
     transition: .30s;
     transform: rotate(180deg);
@@ -94,7 +95,39 @@ header{
     transform: rotate(180deg);
 
 }
-#menu_profiles{
+#navegation_options{
+
+    display: block;
+    position: absolute;
+    width: 25%;
+    top: 70px;
+    left: 0px;
+    background: #3f3f3f;
+    height: 0px;
+    transition: .6s;
+    z-index: 1000;
+    overflow-y: hidden;
+    visibility: hidden;
+    list-style: none;
+    gap: .5rem;
+
+}
+#navegation_options.active {
+    
+    height: calc(36px * 4);
+    visibility: visible;
+
+}
+#navegation_options a{
+
+    font-family: augusta;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,.05);
+
+}
+#navegation_profiles {
     
     display: block;
     position: absolute;
@@ -111,7 +144,13 @@ header{
     gap: .5rem;
     
 }
-#menu_profiles a{
+#navegation_profiles.active {
+    
+    height: calc(36px * 4);
+    visibility: visible;
+
+}
+#navegation_profiles a{
     
     font-family: augusta;
     display: block;
@@ -119,11 +158,5 @@ header{
     text-align: center;
     border-bottom: 2px solid rgba(0,0,0,.05);
     
-}
-#navegation_profiles.active #menu{
-    
-    height: calc(36px * 4);
-    visibility: visible;
-
 }
 
