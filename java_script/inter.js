@@ -5,16 +5,16 @@ function click_1(){
 
     const nave_prf = document.getElementById('navegation_profiles')
     const btn_img_profiles = document.getElementById('btn_img-profiles')
-    nave_prf.classList.toggle('active')
-    btn_img_profiles.classList.toggle('active')
+    nave_prf.classList.toggle('profile_active')
+    btn_img_profiles.classList('profile_active')
 
 }
 function click_2(){
 
     const nave_option  = document.getElementById('navegation_options')
     const btn_options = document.getElementById('btn_img-options')
-    nave_option.classList.toggle('active')
-    btn_options.classList.toggle('active')
+    nave_option.classList.toggle('option_active')
+    btn_options.classList.toggle('option_active')
 
 }
 

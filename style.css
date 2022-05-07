@@ -76,7 +76,7 @@ header{
     transform: rotate(-180deg);
 
 }
-#btn_img-options.active{
+#btn_img-options.option_active{
 
     transition: .30s;
     transform: rotate(180deg);
@@ -89,7 +89,7 @@ header{
     transform: rotate(-180deg);
 
 }
-#btn_img-profiles.active {
+#btn_img-profiles.profile_active {
 
     transition: .30s;
     transform: rotate(180deg);
@@ -112,7 +112,7 @@ header{
     gap: .5rem;
 
 }
-#navegation_options.active {
+#navegation_options.option_active {
     
     height: calc(36px * 4);
     visibility: visible;
@@ -144,7 +144,7 @@ header{
     gap: .5rem;
     
 }
-#navegation_profiles.active {
+#navegation_profiles.profile_active {
     
     height: calc(36px * 4);
     visibility: visible;
