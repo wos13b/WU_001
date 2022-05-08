@@ -4,9 +4,9 @@ const b_options = document.getElementById('btn_options')
 function click_1(){
 
     const nave_prf = document.getElementById('navegation_profiles')
-    const btn_img_profiles = document.getElementById('btn_img-profiles')
+    const btn_profiles = document.getElementById('btn_img-profiles')
     nave_prf.classList.toggle('profile_active')
-    btn_img_profiles.classList('profile_active')
+    btn_profiles.classList.toggle('profile_active')
 
 }
 function click_2(){
@@ -18,6 +18,8 @@ function click_2(){
 
 }
 
+
 b_profile.addEventListener('click', click_1)
 b_options.addEventListener('click', click_2)
+
 
